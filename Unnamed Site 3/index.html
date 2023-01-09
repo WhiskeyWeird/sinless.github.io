@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinless.xyz</title>
+
+<script language="JavaScript">
+        var left="";
+        var right="";
+        var msg="Sinless.xyz ";
+        var speed=300;
+     
+    function scroll_title() {
+            document.title=left+msg+right;
+            msg=msg.substring(1,msg.length)+msg.charAt(0);
+            setTimeout("scroll_title()",speed);
+    }
+    scroll_title();
+</script>  
+    <link rel="stylesheet" type="text/css" href="style.css">
+       </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Sinless.xyz</a>
+      </div>
+      <ul>
+        <li><a href="anasayfa.html">Anasayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Hileler</a></li>
+        <li><a href="#">Destek</a></li>
+        <li><a href="#">Geri Bildirim</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div id="hero">
+  
+  <video autoplay loop muted>
+  	
+    <source src="medya/video2.mp4" type="video/mp4">
+    
+    </video>
+   </div>
+  <div class="center">
+    <div class="title">En Yeni CS:GO Hilesi</div>
+    <div class="sub_title">External & Eternal</div>
+    <div class="btns">
+      <button><a href="https://github.com/WhiskeyWeird" target="new">Daha Fazlası</a></button>
+      <button><a href="https://www.youtube.com/channel/UC9TQsYYgarGVI4HZSVkaPzg" target="new">Abone Ol</a></button>
+    </div>
+  </div>
+</body>
+
+</html>
